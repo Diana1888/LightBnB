@@ -6,21 +6,37 @@ Users can view property information, view their reservations, create listing and
 ## Project Screenshorts
 
 All properties - shows list of all properties
+
 ![All properties](https://github.com/Diana1888/LightBnB/blob/master/docs/allProperties.png?raw=true)
 
+<br />
+
 Create Listing - allows user to create property
+
 ![Create Listing](https://github.com/Diana1888/LightBnB/blob/master/docs/CreateListing.png?raw=true)
 
+<br />
+
 My Listings - allows to view all listings that belongs to user
+
 ![My Listings](https://github.com/Diana1888/LightBnB/blob/master/docs/myListings.png?raw=true)
 
+<br />
+
 My Reservations - allows to view all reservations made by user
+
 ![My Reservations](https://github.com/Diana1888/LightBnB/blob/master/docs/myReservations.png?raw=true)
 
+<br />
+
 Search function - allows to filter all properties by city, price per night and rating
+
 ![Search](https://github.com/Diana1888/LightBnB/blob/master/docs/Search.png?raw=true)
 
+<br />
+
 Search result 
+
 ![Search](https://github.com/Diana1888/LightBnB/blob/master/docs/search-result.png?raw=true)
 
 ## Project Structure
