@@ -104,8 +104,9 @@ Application will be running on http://localhost:3000
 ### Project Dependencies
 
    ```
-   "bcrypt": "^3.0.6",
+    "bcrypt": "^3.0.6",
     "cookie-session": "^1.3.3",
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "pg": "^8.11.3"
