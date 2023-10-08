@@ -139,7 +139,7 @@ const getAllProperties = (options, limit = 10) => {
 
   if (options.minimum_price_per_night && options.maximum_price_per_night) {
     const minPrice = options.minimum_price_per_night * 100;
-    const maxPrice = options.maximum_price_per_night * 100
+    const maxPrice = options.maximum_price_per_night * 100;
     queryParams.push(minPrice, maxPrice);
     if (options.owner_id || options.city) {
       queryString += `AND cost_per_night BETWEEN $${queryParams.length - 1} AND $${queryParams.length} `;
@@ -162,10 +162,8 @@ const getAllProperties = (options, limit = 10) => {
   LIMIT $${queryParams.length};
   `;
 
-  console.log(queryString, queryParams);
-
   return pool.query(queryString, queryParams)
-  .then((res) => res.rows);
+    .then((res) => res.rows);
 };
 
 /**
@@ -199,12 +197,11 @@ const addProperty = function(property) {
     property.number_of_bedrooms
   ];
 
-  console.log(queryString, queryParams);
   return pool.query(queryString, queryParams)
-  .then((res) => res.rows[0])
-  .catch((err) => {
-    console.log(err.message);
-  });;
+    .then((res) => res.rows[0])
+    .catch((err) => {
+      console.log(err.message);
+    });
 };
 
 module.exports = {
